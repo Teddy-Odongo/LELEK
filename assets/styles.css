@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    padding: 20px 0;
+    margin-top: 20px;
+}
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 37.8px;
+    color: rgb(94, 94, 94);
+}
+.navbar{
+    background-color: #fff;
+}
+
+.nav-link:hover{
+    /* color: #bf9b30 !important; */
+    text-decoration: underline;
+    /* text-decoration-color: #bf9b30; */
+    text-underline-offset: 5px;
+}
+.nav-link.used{
+    /* color: #bf9b30; */
+    text-decoration: underline;
+    /* text-decoration-color: #bf9b30; */
+    text-underline-offset: 5px;
+}
+.hero-image{
+    height: 60vh;
+    width: 100%;
+    /* max-height: 450px; */
+}
+
+.section-heading{
+    font-family: Adamina, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 57.6px;
+    color: rgb(56, 53, 53);
+    text-align: center;
+    text-transform: uppercase;
+}
+.booking-form{
+    max-width: 70%;
+}
+.page-heading{
+    font-family: Poppins, arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: rgb(27, 27, 27);
+
+}
+.how-text{
+    font-family: Adamina, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37.5px;
+    color: rgb(56, 53, 53);
+    text-transform: uppercase;
+}
+.column{
+    flex: 33.3%;
+}
+
+
+@media only screen and (max-width: 750px){
+    .hero-image, .carousel-item img{
+        height: 350px;
+    }
+    .booking-form{
+        max-width: 100% !important;
+    }
+}
+
+
+    
