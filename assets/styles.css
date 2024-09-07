@@ -18,6 +18,9 @@ p{
     line-height: 37.8px;
     color: rgb(94, 94, 94);
 }
+.flex-column img{
+    height: 550px !important;
+}
 .navbar{
     background-color: #fff;
 }
@@ -82,6 +85,9 @@ p{
     }
     .booking-form{
         max-width: 100% !important;
+    }
+    .flex-column img{
+        height: 400px !important;
     }
 }
 
