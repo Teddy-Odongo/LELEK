@@ -59,7 +59,7 @@ p{
     max-width: 70%;
 }
 .page-heading{
-    font-family: Poppins, arial, sans-serif;
+    font-family: 'Poppins', arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -94,9 +94,11 @@ img{
     border-radius: 8px;
 }
 .footNote{
-    font-size: 8px;
+    font-size: 10px;
 }
-
+.orWord{
+    font-family: 'Ribeye', sans-serif;
+}
 @media only screen and (max-width: 750px){
     .hero-image, .carousel-item img{
         height: 350px;
