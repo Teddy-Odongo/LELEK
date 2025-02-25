@@ -28,13 +28,13 @@ p{
 .nav-link:hover{
     /* color: #bf9b30 !important; */
     text-decoration: underline;
-    /* text-decoration-color: #bf9b30; */
+    text-decoration-color: #bf5b58;
     text-underline-offset: 5px;
 }
 .nav-link.used{
     /* color: #bf9b30; */
     text-decoration: underline;
-    /* text-decoration-color: #bf9b30; */
+    text-decoration-color: #bf5b58;
     text-underline-offset: 5px;
 }
 .hero-image{
@@ -77,7 +77,16 @@ p{
 .column{
     flex: 33.3%;
 }
-
+.carouselSection{
+    background-color: #cc9a98;
+}
+.btn-secondary{
+    background-color: #bf5b58;
+    border: none;
+}
+img{
+    border-radius: 8px;
+}
 
 @media only screen and (max-width: 750px){
     .hero-image, .carousel-item img{
