@@ -79,7 +79,7 @@ p{
     flex: 33.3%;
 }
 .carouselSection{
-    background-color: #cc9a98;
+    background-color: #e7bebc;
 }
 .btn-secondary{
     background-color: #bf5b58;
@@ -92,6 +92,9 @@ p{
 }
 img{
     border-radius: 8px;
+}
+.footNote{
+    font-size: 12px;
 }
 
 @media only screen and (max-width: 750px){
